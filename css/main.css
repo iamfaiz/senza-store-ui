@@ -6,12 +6,24 @@ body {
 	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
-.navbar-brand {
-	font-weight: 300;
+.navbar {
+	background-color: white;
+	border: none;
 }
 
-body > .container {
-	min-height: 800px;
+.navbar.navbar-scrolled {
+	background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    max-width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar-brand {
+	font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
