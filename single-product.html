@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Estore</title>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+	<body>
+
+		<div class="container">
+			<nav class="navbar navbar-default" role="navigation">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/">Senza</a>
+				</div>
+			
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
+						<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</nav>
+
+			<div class="row single-product">
+				<div class="col-md-6">
+					<img src="http://unsplash.it/700/500?image=555" alt="" class="img-responsive">
+					
+					<div class="single-product-all-images-list">
+						<img class="selected" src="http://unsplash.it/100/100?image=555" alt="">
+						<img src="http://unsplash.it/100/100?image=551" alt="">
+						<img src="http://unsplash.it/100/100?image=552" alt="">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-6">
+							<a href="#" class="single-product-back">Previous Product</a>
+							<a href="#"><i class="glyphicon glyphicon-menu-left"></i></a>
+								2 z 99
+							<a href="#"><i class="glyphicon glyphicon-menu-right"></i></a>
+
+							<h1 class="single-product-title">Product 1</h1>
+							<form class="size-form" method="post">
+								<div class="row">
+									<div class="col-md-6">
+										<select class="form-control">
+											<option value="1">2 meters</option>
+											<option value="2">2 meters</option>
+											<option value="3">3 meters</option>
+											<option value="4">4 meters</option>
+											<option value="5">5 meters</option>
+										</select>
+									</div>
+									<div class="col-md-6">
+										<button type="submit" class="btn btn-primary btn-block">Buy Now</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-6">
+							<h2 class="single-product-price pull-right">$200</h2>
+						</div>
+					</div>
+					<hr>
+					<div class="single-product-detail-list">
+						<div class="single-product-detail-item">
+							<i class="glyphicon glyphicon-calendar"></i>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, voluptatem.
+						</div>
+						<div class="single-product-detail-item">
+							<i class="glyphicon glyphicon-refresh"></i>
+							Impedit, maxime! Lorem ipsum dolor sit amet.
+						</div>
+						<div class="single-product-detail-item">
+							<i class="glyphicon glyphicon-gift"></i>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, voluptatem.
+						</div>
+						<div class="single-product-detail-item">
+							<i class="glyphicon glyphicon-shopping-cart"></i>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, voluptatem.
+						</div>
+					</div>
+					
+					<div role="tabpanel" class="single-product-tab-details">
+					    <!-- Nav tabs -->
+					    <ul class="nav nav-tabs" role="tablist">
+					        <li role="presentation" class="active">
+					            <a href="#SZCZEGÓŁY" aria-controls="SZCZEGÓŁY" role="tab" data-toggle="tab">SZCZEGÓŁY</a>
+					        </li>
+					        <li role="presentation">
+					            <a href="#tab" aria-controls="tab" role="tab" data-toggle="tab">tab</a>
+					        </li>
+					    </ul>
+					
+					    <!-- Tab panes -->
+					    <div class="tab-content">
+					        <div role="tabpanel" class="tab-pane active" id="SZCZEGÓŁY">
+								<h6>OPIS</h6>
+								Max. obciążenie: 50 kg.
+								<h6>DETALE</h6>
+								Marka: Mauro Ferretti
+								Wymiary: wysokość 40 cm/średnica 45 cm
+								Waga: 1.5 Kg
+								Materiał: drewno sosnowe, MDF
+								Kolor: niebieski
+					        </div>
+					        <div role="tabpanel" class="tab-pane" id="tab">
+								<h6>INSTRUKCJE</h6>
+								Produkt dostarczany do samodzielnego montażu.
+								<h6>GWARANTOWANA JAKOŚĆ</h6>
+								że ten produkt jest oryginalny i spółka Vivre jest uprawniona do jego sprzedaży.Ten produkt może zostać zwrócony darmowo w ciągu 30 dni od otrzymania przesyłki.
+					        </div>
+					    </div>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer">
+			©2016 Senza sp. z o.o., Reg. Com. J40/3718/30.03.2012, CUI: RO30010618.
+		</footer>
+
+		<div class="modal fade" id="login-modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Login</h4>
+					</div>
+					<div class="modal-body">
+				    	<form accept-charset="UTF-8" role="form">
+		                    <fieldset>
+					    	  	<div class="form-group">
+					    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
+					    		</div>
+					    		<div class="form-group">
+					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+					    		</div>
+					    		<div class="form-group">
+					    			<input class="form-control" placeholder="Confirm Password" name="password" type="password" value="">
+					    		</div>
+					    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+					    	</fieldset>
+				      	</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="modal fade" id="register-modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Register</h4>
+					</div>
+					<div class="modal-body">
+				    	<form accept-charset="UTF-8" role="form">
+		                    <fieldset>
+					    	  	<div class="form-group">
+					    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
+					    		</div>
+					    		<div class="form-group">
+					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+					    		</div>
+					    		<div class="checkbox">
+					    	    	<label>
+					    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
+					    	    	</label>
+					    	    </div>
+					    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
+					    	</fieldset>
+				      	</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<!-- <script src="/js/main.js"></script> -->
+	</body>
+</html>

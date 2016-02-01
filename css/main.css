@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+body {
+	padding-top: 10px;
+	color: #666;
+	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+.navbar-brand {
+	font-weight: 300;
+}
+
+body > .container {
+	min-height: 800px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #666;
+}
+
+a {
+	color: #666;
+}
+
+a:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.category-row {
+	margin-bottom: 30px;
+}
+
+.category-single .category-title {
+	font-size: 15px;
+	margin: 5px 0;
+}
+
+.category-single .category-description {
+	color: #666;
+	font-size: 12px;
+	margin: 5px 0;
+}
+
+.category-single .category-details {
+	margin-top: 10px;
+}
+
+.category-open-link {
+	float: right;
+	display: block;
+}
+
+.product-row {
+	margin-bottom: 30px;	
+}
+
+.product-single .product-title {
+	font-size: 15px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.product-single .product-price {
+	color: #9A12B3;
+	font-size: 12px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.product-single .product-details {
+	margin-top: 10px;
+}
+
+.product-open-link {
+	float: right;
+	display: block;
+}
+
+.category-preview {
+	margin-bottom: 30px;
+}
+
+.category-preview-title {
+	color: #666;
+	font-size: 33px;
+}
+
+.category-preview-description {
+	color: #666;
+}
+
+.single-product-title {
+	font-size: 28px;
+}
+
+.single-product-back {
+	text-transform: uppercase;
+}
+
+.single-product-price {
+	color: #9A12B3;
+}
+
+.single-product-detail-list {
+	line-height: 30px;
+}
+
+.single-product-detail-item {
+    font-size: 13px;
+}
+
+.single-product-tab-details {
+	margin-top: 20px;
+}
+
+.single-product-all-images-list {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.single-product-all-images-list img {
+	height: 100px;
+	width: 100px;
+}
+
+.single-product-all-images-list img.selected {
+	border: 1px solid #e2e2e2;
+}
+
+.footer {
+	text-align: center;
+	background: #f2f2f2;
+	padding: 20px 0;
+}
+
+/* For buttons */
+
+.btn.btn-primary {
+	background: #9A12B3;
+	border-color: #9A12B3;
+}
+
+.btn.btn-primary:hover {
+	background: #9A12B3;
+}
