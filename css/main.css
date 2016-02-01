@@ -6,6 +6,11 @@ body {
 	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
+.container {
+	width: 940px;
+	max-width: 100%;
+}
+
 .navbar {
 	background-color: white;
 	border: none;
