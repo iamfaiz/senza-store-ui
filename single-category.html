@@ -23,34 +23,29 @@
 			
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav">
-						<ul class="nav navbar-nav">
-							<li><a href="#">Some Link</a></li>
-							<li><a href="#">Another One</a></li>
-						</ul>
-					</ul>
 					<ul class="nav navbar-nav navbar-right">
 						<ul class="nav navbar-nav">
-							<li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
-							<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+							<li><a href="#" data-open="register" data-toggle="modal" data-target="#login-register-modal">Register</a></li>
+							<li><a href="#" data-open="login" data-toggle="modal" data-target="#login-register-modal">Login</a></li>
 						</ul>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>
 		</nav>
+
 		<div class="container">
 			<div class="row category-preview">
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-6">
 					<img src="http://unsplash.it/550/400" class="img-responsive">
 				</div>
-				<div class="col-md-6 category-preview-details">
+				<div class="col-md-6 col-sm-6 category-preview-details">
 					<h1 class="category-preview-title">Category Title Here</h1>
 					<p class="category-preview-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod recusandae impedit, iure fugit illo aliquid rem culpa aspernatur porro maxime. Ab ea aut illum deleniti recusandae! Eum, a dolor asperiores modi fuga ut obcaecati, repudiandae, inventore, totam commodi nam alias numquam quas quo esse. Eveniet nisi delectus cupiditate dolorem itaque maiores voluptates, officiis ipsam eligendi exercitationem, possimus, aperiam sequi quisquam. Commodi dolorem accusamus deserunt impedit ex delectus assumenda quos a itaque, odit, inventore repellendus deleniti dolores tenetur tempore quam culpa dolor esse perspiciatis maxime facilis neque. Adipisci nostrum voluptate commodi itaque?</p>
 				</div>
 			</div>
 
 			<div class="row product-row">
-				<div class="col-md-4 product-single">
+				<div class="col-md-4 col-sm-6 col-xs-6 product-single">
 					<a href="./single-product.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=1">
 						<div class="product-details">
@@ -59,7 +54,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 product-single">
+				<div class="col-md-4 col-sm-6 col-xs-6 product-single">
 					<a href="./single-product.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=2">
 						<div class="product-details">
@@ -68,7 +63,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 product-single">
+				<div class="col-md-4 col-sm-6 col-xs-6 product-single">
 					<a href="./single-product.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=2">
 						<div class="product-details">
@@ -77,31 +72,29 @@
 						</div>
 					</a>
 				</div>
-			</div>
-			<div class="row product-row">
-				<div class="col-md-4 product-single">
+				<div class="col-md-4 col-sm-6 col-xs-6 product-single">
 					<a href="./single-product.html">
-						<img class="img-responsive" src="http://unsplash.it/560/320?image=3">
+						<img class="img-responsive" src="http://unsplash.it/560/320?image=1">
 						<div class="product-details">
-							<h2 class="product-title">product 3</h2>
+							<h2 class="product-title">product 1</h2>
 							<h3 class="product-price">$20.00</h3>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 product-single">
+				<div class="col-md-4 col-sm-6 col-xs-6 product-single">
 					<a href="./single-product.html">
-						<img class="img-responsive" src="http://unsplash.it/560/320?image=4">
+						<img class="img-responsive" src="http://unsplash.it/560/320?image=2">
 						<div class="product-details">
-							<h2 class="product-title">product 4</h2>
+							<h2 class="product-title">product 2</h2>
 							<h3 class="product-price">$20.00</h3>
 						</div>
 					</a>
 				</div>
-				<div class="col-md-4 product-single">
+				<div class="col-md-4 col-sm-6 col-xs-6 product-single">
 					<a href="./single-product.html">
-						<img class="img-responsive" src="http://unsplash.it/560/320?image=4">
+						<img class="img-responsive" src="http://unsplash.it/560/320?image=2">
 						<div class="product-details">
-							<h2 class="product-title">product 4</h2>
+							<h2 class="product-title">product 2</h2>
 							<h3 class="product-price">$20.00</h3>
 						</div>
 					</a>
@@ -109,18 +102,43 @@
 			</div>
 		</div>
 
-		<footer class="footer">
+		<footer class="footer footer-links">
+			<a href="#">About us</a><a href="#">Terms and Conditions</a><a href="#">Contact</a>
+		</footer>
+
+		<footer class="copyright-footer">
 			©2016 Senza sp. z o.o., Reg. Com. J40/3718/30.03.2012, CUI: RO30010618.
 		</footer>
 
-		<div class="modal fade" id="login-modal">
+		<div class="modal fade show-login" id="login-register-modal">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 					</div>
 					<div class="modal-body">
-						<form class="modal-form">
+				    	<form class="modal-form register-form">
+							<h2 class="text-center">Register</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+				    	  	<div class="form-group">
+				    		    <input class="form-control" placeholder="Name" name="name" type="text">
+				    		</div>
+				    	  	<div class="form-group">
+				    		    <input class="form-control" placeholder="E-mail" name="email" type="email">
+				    		</div>
+				    		<div class="form-group">
+				    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+				    		</div>
+
+				    	    <div class="form-group">
+								<button class="btn btn-primary" type="submit">Register</button>
+				    	    </div>
+
+							<div class="form-group">
+					    	    <a href="#" data-open="login">Already a member? Login!</a>
+							</div>
+				      	</form>
+						<form class="modal-form login-form">
 							<h2 class="text-center">Login</h2>
 							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
 							<div class="form-group">
@@ -132,38 +150,10 @@
 							<div class="form-group">
 								<button class="btn btn-primary" type"submit">Login</button>
 							</div>
+							<div class="form-group">
+					    	    <a href="#" data-open="register">Not a member? Register!</a>
+							</div>
 						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="modal fade" id="register-modal">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-					</div>
-					<div class="modal-body">
-				    	<form class="modal-form">
-							<h2 class="text-center">Register</h2>
-							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
-
-		                    <fieldset>
-					    	  	<div class="form-group">
-					    		    <input class="form-control" placeholder="Name" name="name" type="text">
-					    		</div>
-					    	  	<div class="form-group">
-					    		    <input class="form-control" placeholder="E-mail" name="email" type="email">
-					    		</div>
-					    		<div class="form-group">
-					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
-					    		</div>
-
-					    	    <div class="form-group">
-									<button class="btn btn-primary" type="submit">Register</button>
-					    	    </div>
-					    	</fieldset>
-				      	</form>
 					</div>
 				</div>
 			</div>
