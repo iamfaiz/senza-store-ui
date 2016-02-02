@@ -30,3 +30,9 @@ $(function () {
 		$('#login-register-modal').modal('show');
 	});
 });
+
+$('#item-count').on('change', function (event) {
+	if (parseInt($(this).val()) < 0) {
+		$(this).val(0);
+	}
+});
