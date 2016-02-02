@@ -45,9 +45,6 @@
 								<h2 class="category-title">Category 1</h2>
 								<h3 class="category-description">Lorem ipsum dolor sit amet.</h3>
 							</div>
-							<div class="col-md-3">
-								<a href="./single-category.html" class="btn btn-primary category-open-link">Open</a>
-							</div>
 						</div>
 					</a>
 				</div>
@@ -58,9 +55,6 @@
 							<div class="col-md-9">
 								<h2 class="category-title">Category 2</h2>
 								<h3 class="category-description">Lorem ipsum dolor sit amet 2.</h3>
-							</div>
-							<div class="col-md-3">
-								<a href="./single-category.html" class="btn btn-primary category-open-link">Open</a>
 							</div>
 						</div>
 					</a>
@@ -76,9 +70,6 @@
 								<h2 class="category-title">Category 3</h2>
 								<h3 class="category-description">Lorem ipsum dolor sit amet.</h3>
 							</div>
-							<div class="col-md-3">
-								<a href="./single-category.html" class="btn btn-primary category-open-link">Open</a>
-							</div>
 						</div>
 					</a>
 				</div>
@@ -89,9 +80,6 @@
 							<div class="col-md-9">
 								<h2 class="category-title">Category 4</h2>
 								<h3 class="category-description">Lorem ipsum dolor sit amet 4.</h3>
-							</div>
-							<div class="col-md-3">
-								<a href="./single-category.html" class="btn btn-primary category-open-link">Open</a>
 							</div>
 						</div>
 					</a>
@@ -111,20 +99,24 @@
 						<h4 class="modal-title" id="myModalLabel">Login</h4>
 					</div>
 					<div class="modal-body">
-				    	<form accept-charset="UTF-8" role="form">
-		                    <fieldset>
-					    	  	<div class="form-group">
-					    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
-					    		</div>
-					    		<div class="form-group">
-					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
-					    		</div>
-					    		<div class="form-group">
-					    			<input class="form-control" placeholder="Confirm Password" name="password" type="password" value="">
-					    		</div>
-					    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
-					    	</fieldset>
-				      	</form>
+						<form class="modal-form">
+							<h2 class="text-center">Login</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+							<div class="form-group">
+								<input type="email" placeholder="E-mail" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Password" class="form-control">
+							</div>
+				    		<div class="form-group checkbox">
+				    	    	<label>
+				    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
+				    	    	</label>
+				    	    </div>
+							<div class="form-group">
+								<button class="btn btn-primary" type"submit">Login</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -137,20 +129,24 @@
 						<h4 class="modal-title" id="myModalLabel">Register</h4>
 					</div>
 					<div class="modal-body">
-				    	<form accept-charset="UTF-8" role="form">
+				    	<form class="modal-form">
+							<h2 class="text-center">Register</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+
 		                    <fieldset>
 					    	  	<div class="form-group">
-					    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
+					    		    <input class="form-control" placeholder="Name" name="name" type="text">
+					    		</div>
+					    	  	<div class="form-group">
+					    		    <input class="form-control" placeholder="E-mail" name="email" type="email">
 					    		</div>
 					    		<div class="form-group">
 					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
 					    		</div>
-					    		<div class="checkbox">
-					    	    	<label>
-					    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
-					    	    	</label>
+
+					    	    <div class="form-group">
+									<button class="btn btn-primary" type="submit">Register</button>
 					    	    </div>
-					    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
 					    	</fieldset>
 				      	</form>
 					</div>
