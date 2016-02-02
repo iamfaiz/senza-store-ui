@@ -7,37 +7,42 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<div class="container container-navbar">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						
-						<a class="navbar-brand" href="./index.html">Senza</a>
-					</div>
-				
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand" href="./index.html">Senza</a>
+				</div>
+			
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Some Link</a></li>
+							<li><a href="#">Another One</a></li>
+						</ul>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
 						<ul class="nav navbar-nav">
 							<li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
 							<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
 						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav>
-		</div>
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
 
 		<div class="container">
-
-
 			<div class="row category-row">
-				<div class="col-md-6 category-single">
+				<div class="col-md-6 col-sm-6 col-xs-6 category-single">
 					<a href="./single-category.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=1">
 						<div class="row category-details">
@@ -48,7 +53,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 category-single">
+				<div class="col-md-6 col-sm-6 col-xs-6 category-single">
 					<a href="./single-category.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=2">
 						<div class="row category-details">
@@ -62,7 +67,7 @@
 			</div>
 
 			<div class="row category-row">
-				<div class="col-md-6 category-single">
+				<div class="col-md-6 col-sm-6 col-xs-6 category-single">
 					<a href="./single-category.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=3">
 						<div class="row category-details">
@@ -73,7 +78,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-md-6 category-single">
+				<div class="col-md-6 col-sm-6 col-xs-6 category-single">
 					<a href="./single-category.html">
 						<img class="img-responsive" src="http://unsplash.it/560/320?image=4">
 						<div class="row category-details">
@@ -96,7 +101,6 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Login</h4>
 					</div>
 					<div class="modal-body">
 						<form class="modal-form">
@@ -108,11 +112,6 @@
 							<div class="form-group">
 								<input type="password" placeholder="Password" class="form-control">
 							</div>
-				    		<div class="form-group checkbox">
-				    	    	<label>
-				    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
-				    	    	</label>
-				    	    </div>
 							<div class="form-group">
 								<button class="btn btn-primary" type"submit">Login</button>
 							</div>
@@ -126,7 +125,6 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Register</h4>
 					</div>
 					<div class="modal-body">
 				    	<form class="modal-form">

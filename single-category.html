@@ -7,32 +7,38 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-
-		<div class="container">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container">
-					<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						
-						<a class="navbar-brand" href="./index.html">Senza</a>
-					</div>
-				
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+					<a class="navbar-brand" href="./index.html">Senza</a>
+				</div>
+			
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse navbar-ex1-collapse">
+					<ul class="nav navbar-nav">
+						<ul class="nav navbar-nav">
+							<li><a href="#">Some Link</a></li>
+							<li><a href="#">Another One</a></li>
+						</ul>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
 						<ul class="nav navbar-nav">
 							<li><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
 							<li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
 						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div>
-			</nav>
-
+					</ul>
+				</div><!-- /.navbar-collapse -->
+			</div>
+		</nav>
+		<div class="container">
 			<div class="row category-preview">
 				<div class="col-md-6">
 					<img src="http://unsplash.it/550/400" class="img-responsive">
@@ -112,23 +118,21 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Login</h4>
 					</div>
 					<div class="modal-body">
-				    	<form accept-charset="UTF-8" role="form">
-		                    <fieldset>
-					    	  	<div class="form-group">
-					    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
-					    		</div>
-					    		<div class="form-group">
-					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
-					    		</div>
-					    		<div class="form-group">
-					    			<input class="form-control" placeholder="Confirm Password" name="password" type="password" value="">
-					    		</div>
-					    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
-					    	</fieldset>
-				      	</form>
+						<form class="modal-form">
+							<h2 class="text-center">Login</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+							<div class="form-group">
+								<input type="email" placeholder="E-mail" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Password" class="form-control">
+							</div>
+							<div class="form-group">
+								<button class="btn btn-primary" type"submit">Login</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -138,23 +142,26 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="myModalLabel">Register</h4>
 					</div>
 					<div class="modal-body">
-				    	<form accept-charset="UTF-8" role="form">
+				    	<form class="modal-form">
+							<h2 class="text-center">Register</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+
 		                    <fieldset>
 					    	  	<div class="form-group">
-					    		    <input class="form-control" placeholder="E-mail" name="email" type="text">
+					    		    <input class="form-control" placeholder="Name" name="name" type="text">
+					    		</div>
+					    	  	<div class="form-group">
+					    		    <input class="form-control" placeholder="E-mail" name="email" type="email">
 					    		</div>
 					    		<div class="form-group">
 					    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
 					    		</div>
-					    		<div class="checkbox">
-					    	    	<label>
-					    	    		<input name="remember" type="checkbox" value="Remember Me"> Remember Me
-					    	    	</label>
+
+					    	    <div class="form-group">
+									<button class="btn btn-primary" type="submit">Register</button>
 					    	    </div>
-					    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
 					    	</fieldset>
 				      	</form>
 					</div>
