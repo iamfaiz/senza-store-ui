@@ -251,6 +251,10 @@ a:hover {
 	display: block;
 }
 
+.product-single {
+	margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px) {
 	.single-product-title, .single-product-price {
 		margin-top: 20px !important;
