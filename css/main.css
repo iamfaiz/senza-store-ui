@@ -120,6 +120,8 @@ a:hover {
 
 .single-product-price {
 	color: #9A12B3;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .single-product-detail-list {
@@ -220,6 +222,7 @@ a:hover {
 .btn-buy-now {
 	background-color: white !important;
 	color: #9A12B3;
+	display: inline;
 }
 
 .btn-buy-now:focus, .btn-buy-now:active, .btn-buy-now:focus:active {
@@ -246,4 +249,10 @@ a:hover {
 
 #login-register-modal.show-login .login-form {
 	display: block;
+}
+
+@media screen and (max-width: 768px) {
+	.single-product-title, .single-product-price {
+		margin-top: 20px !important;
+	}
 }
