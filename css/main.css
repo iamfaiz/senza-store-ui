@@ -317,6 +317,45 @@ a:hover {
 	padding-top: 4px;
 }
 
+.cart-table {
+	border-bottom: 1px solid #eee;
+	padding: 20px;
+}
+
+.cart-table td {
+	vertical-align: middle !important;
+}
+
+.cart-table td img {
+	display: inline;
+	padding-right: 10px;
+}
+
+.cart-terms {
+	font-size: 10px;
+}
+
+.receipt h2 {
+	color: black;
+	margin: 0;
+}
+
+.payment-options {
+	margin: 0 auto;
+}
+
+.cart-extras {
+	margin-top: 20px;
+}
+
+.cart-extras p {
+    font-size: 13px;
+}
+
+.cart-extras p i {
+	padding-right: 10px;
+}
+
 @media screen and (max-width: 768px) {
 	.single-product-title, .single-product-price {
 		margin-top: 20px !important;

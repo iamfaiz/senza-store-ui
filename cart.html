@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Estore</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+
+		<nav class="navigation-bar">
+			<div class="container">
+				<a href="./index.html" class="logo">Senza</a>
+				<ul class="navigation-links">
+					<li>
+						<a href="#" data-open="register" data-toggle="modal" data-target="#login-register-modal" class="join-the-club">Hello! Join the club</a>
+					</li>
+					<li>
+						<a href="./cart.html" class="cart-link"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="table-responsive">
+						<table class="table table-hover cart-table">
+							<thead>
+								<tr>
+									<th>Product</th>
+									<th>Amount</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>
+										<img src="http://unsplash.it/100/100?image=34" alt="" class="img-responsive">
+										<span>Product Name</span>
+									</td>
+									<td>
+										<div class="input-group spinner">
+											<input type="text" class="form-control" placeholder="How many?" value="1">
+											<div class="input-group-btn-vertical">
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-up"></i>
+												</button>
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-down"></i>
+												</button>
+											</div>
+										</div>
+									</td>
+									<td>
+										$12
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="http://unsplash.it/100/100?image=35" alt="" class="img-responsive">
+										<span>Product Name</span>
+									</td>
+									<td>
+										<div class="input-group spinner">
+											<input type="text" class="form-control" placeholder="How many?" value="1">
+											<div class="input-group-btn-vertical">
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-up"></i>
+												</button>
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-down"></i>
+												</button>
+											</div>
+										</div>
+									</td>
+									<td>
+										$12
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="http://unsplash.it/100/100?image=36" alt="" class="img-responsive">
+										<span>Product Name</span>
+									</td>
+									<td>
+										<div class="input-group spinner">
+											<input type="text" class="form-control" placeholder="How many?" value="1">
+											<div class="input-group-btn-vertical">
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-up"></i>
+												</button>
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-down"></i>
+												</button>
+											</div>
+										</div>
+									</td>
+									<td>
+										$12
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+					<div class="cart-extras">
+						<p><i class="glyphicon glyphicon-calendar"></i>Termin wysłania produktów między 22.02.2016 - 07.03.2016</p>
+						<p><i class="glyphicon glyphicon-gift"></i> Dostawa bezpłatna w całym kraju przy zamówieniach powyżej 300 PLN</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="well receipt">
+						<div class="row">
+							<div class="col-md-6">
+								<h2>Sum</h2>
+							</div>
+							<div class="col-md-6">
+								<h2 class="text-right">12:00</h2>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-6">
+								<h6>Całkowita płatność</h6>
+							</div>
+							<div class="col-md-6">
+								<h6 class="text-right">628 zł</h6>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-12">
+								<h6>Sposoby płatności</h6>
+								<div class="radio">
+									<label>
+										<input type="radio" name="payment-options" value="" checked="">
+										Płacę kartą kredytową
+									</label>
+								</div>
+								<div class="radio">
+									<label>
+										<input type="radio" name="payment-options" value="">
+										Płacę kartą kredytową
+									</label>
+								</div>	
+								<div class="radio">
+									<label>
+										<input type="radio" name="payment-options" value="">
+										Płacę przelewem bankowym
+									</label>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary btn-block">Checkout</button>
+								</div>
+
+								<p class="text-center cart-terms">Składając zamówienie oświadczam, że wyrażam zgodę na przestrzeganie Regulaminu.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<img src="./img/logos-payment.jpg" alt="Payment Options" class="img-responsive payment-options">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="footer footer-links">
+			<a href="#">About us</a><a href="#">Terms and Conditions</a><a href="#">Contact</a>
+		</footer>
+
+		<footer class="copyright-footer">
+			©2016 Senza sp. z o.o., Reg. Com. J40/3718/30.03.2012, CUI: RO30010618.
+		</footer>
+
+		<div class="modal fade show-login" id="login-register-modal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+				    	<form class="modal-form register-form">
+							<h2 class="text-center">Register</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+				    	  	<div class="form-group">
+				    		    <input class="form-control" placeholder="Name" name="name" type="text">
+				    		</div>
+				    	  	<div class="form-group">
+				    		    <input class="form-control" placeholder="E-mail" name="email" type="email">
+				    		</div>
+				    		<div class="form-group">
+				    			<input class="form-control" placeholder="Password" name="password" type="password" value="">
+				    		</div>
+
+				    	    <div class="form-group">
+								<button class="btn btn-primary" type="submit">Register</button>
+				    	    </div>
+
+							<div class="form-group">
+					    	    <a href="#" data-open="login">Already a member? Login!</a>
+							</div>
+				      	</form>
+						<form class="modal-form login-form">
+							<h2 class="text-center">Login</h2>
+							<h3 class="text-center">Ponad 1 Milion użytkowników cieszy się ofertami Vivre</h3>
+							<div class="form-group">
+								<input type="email" placeholder="E-mail" class="form-control">
+							</div>
+							<div class="form-group">
+								<input type="password" placeholder="Password" class="form-control">
+							</div>
+							<div class="form-group">
+								<button class="btn btn-primary" type"submit">Login</button>
+							</div>
+							<div class="form-group">
+					    	    <a href="#" data-open="register">Not a member? Register!</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
