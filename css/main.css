@@ -48,6 +48,16 @@ body {
 	font-size: 1.5em;
 }
 
+.navigation-bar .navigation-links li:nth-child(2) i {
+	background: url(./../img/cart.png);	
+	display: inline-block;
+	background-size: cover;
+	width: 41px;
+	height: 30px;
+	text-indent: 10px;
+}
+
+
 .navigation-bar .navigation-links li:nth-child(1) {
 	padding-right: 20px;
     position: relative;
