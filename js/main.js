@@ -2,9 +2,9 @@ $(function () {
 	// Scrolling navbar effect.
 	$(window).on('scroll', function () {
 		if ( $(this).scrollTop() > 10 ) {
-			$('.navbar').addClass('navbar-scrolled');
+			$('.navigation-bar').addClass('scrolled');
 		} else {
-			$('.navbar').removeClass('navbar-scrolled');
+			$('.navigation-bar').removeClass('scrolled');
 		}
 	});
 

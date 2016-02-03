@@ -11,20 +11,45 @@ body {
 	max-width: 100%;
 }
 
-.navbar {
-	background-color: white;
-	border: none;
+.navigation-bar {
 	position: fixed;
-    z-index: 999;
-    width: 100%;
-    max-width: 100%;
-    left: 0;
-    top: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+    padding-top: 7px;
+    padding-bottom: 0px;
 }
 
-.navbar.navbar-scrolled {
+.navigation-bar .logo {
+	font-weight: 300;
+	font-size: 2em;
+	color: #9A12B3;
+}
+
+.navigation-bar .navigation-links {
+	list-style: none;
+	float: right;
+	margin-top: 8px;
+}
+
+.navigation-bar .navigation-links li {
+	display: inline-block;
+}
+
+.navigation-bar .navigation-links li:nth-child(2) {
+	font-size: 1.5em;
+}
+
+.navigation-bar .navigation-links li:nth-child(1) {
+	padding-right: 20px;
+    position: relative;
+    top: -5px;
+}
+
+.scrolled {
 	background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
 }
 
 .navbar-brand {
