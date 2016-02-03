@@ -25,6 +25,13 @@ body {
 	font-weight: 300;
 	font-size: 2em;
 	color: #9A12B3;
+	display: block;
+	float: left;
+	text-indent: -99999px;
+	background: url(./../img/senza-logo.png);
+	width: 121px;
+	height: 30px;
+	margin-top: 5px;
 }
 
 .navigation-bar .navigation-links {
