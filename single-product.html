@@ -37,7 +37,7 @@
 		<div class="container">
 			<div class="row single-product">
 				<div class="col-md-6 col-sm-6">
-					<img src="http://unsplash.it/700/500?image=555" alt="" class="img-responsive img-thumbnail">
+					<img src="http://unsplash.it/700/500?image=555" alt="" class="img-responsive">
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="row">
@@ -46,7 +46,17 @@
 							<form class="size-form" method="post">
 								<div class="row">
 									<div class="col-md-8 col-sm-6 col-xs-6">
-										<input id="item-count" class="form-control" type="number" name="price" placeholder="How many?" value="1">
+										<div class="input-group spinner">
+											<input type="text" class="form-control" placeholder="How many?" value="1">
+											<div class="input-group-btn-vertical">
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-up"></i>
+												</button>
+												<button class="btn btn-default" type="button">
+													<i class="glyphicon glyphicon-menu-down"></i>
+												</button>
+											</div>
+										</div>
 									</div>
 									<div class="col-md-4 col-sm-6 col-xs-6">
 										<button type="submit" class="btn btn-primary btn-buy-now">Buy Now</button>
