@@ -331,6 +331,7 @@ a:hover {
 
 .cart-table td {
 	vertical-align: middle !important;
+	border-color: #eee !important;
 }
 
 .cart-table td img {
