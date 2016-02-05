@@ -345,7 +345,6 @@ a:hover {
 
 .cart-table td {
 	vertical-align: middle !important;
-	border: none !important;
 }
 
 .cart-first-row-header {
@@ -402,5 +401,9 @@ a:hover {
 	.single-product-image {
 		max-width: 440px;
 		width: 100%;
+	}
+
+	.cart-table td {
+		border: none !important;
 	}
 }
