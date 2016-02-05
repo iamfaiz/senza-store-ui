@@ -32,6 +32,7 @@ body {
 	width: 121px;
 	height: 30px;
 	margin-top: 5px;
+	outline: none;
 }
 
 .navigation-bar .navigation-links {
@@ -265,6 +266,8 @@ a:hover {
 	background-color: white !important;
 	color: #9A12B3;
 	display: inline;
+	float: left;
+	margin-left: 5px;
 }
 
 .btn-buy-now:focus, .btn-buy-now:active, .btn-buy-now:focus:active {
@@ -299,6 +302,7 @@ a:hover {
 
 .spinner {
 	width: 100px;
+	float: left;
 }
 .spinner input {
 }
@@ -341,7 +345,15 @@ a:hover {
 
 .cart-table td {
 	vertical-align: middle !important;
-	border-color: #eee !important;
+	border: none !important;
+}
+
+.cart-first-row-header {
+	font-size: 24px;
+}
+
+.well.receipt {
+	border: none;
 }
 
 .cart-table td img {
@@ -374,8 +386,21 @@ a:hover {
 	padding-right: 10px;
 }
 
+.buy-now-form-row {
+	margin-top: 30px;
+}
+
+.single-product-image {
+	margin: 0 auto;
+}
+
 @media screen and (max-width: 768px) {
 	.single-product-title, .single-product-price {
 		margin-top: 20px !important;
+	}
+
+	.single-product-image {
+		max-width: 440px;
+		width: 100%;
 	}
 }
