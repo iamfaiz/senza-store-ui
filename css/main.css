@@ -6,6 +6,15 @@ body {
 	font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
+body.homepage-body {
+	padding-top: 0;
+}
+
+.homepage-header {
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
 .container {
 	width: 940px;
 	max-width: 100%;
