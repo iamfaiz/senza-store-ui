@@ -39,8 +39,13 @@ body.homepage-body {
 	left: 0;
 	width: 100%;
 	z-index: 999;
-    padding-top: 7px;
     padding-bottom: 0px;
+    overflow: hidden;
+    padding: 0 3px 3px 3px;
+}
+
+.navigation-bar-inner {
+	overflow: hidden;
 }
 
 .navigation-bar .logo {
@@ -88,8 +93,8 @@ body.homepage-body {
 }
 
 .scrolled {
-	background: rgba(255, 255, 255, 0.95);
-	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-brand {
