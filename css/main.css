@@ -338,13 +338,21 @@ a:hover {
 	padding-top: 4px;
 }
 
+.table-responsive {
+	border: none !important;
+}
+
 .cart-table {
-	border-bottom: 1px solid #eee;
 	padding: 20px;
+}
+
+.cart-table th {
+	border: none !important;
 }
 
 .cart-table td {
 	vertical-align: middle !important;
+	border: none !important;
 }
 
 .cart-first-row-header {
@@ -401,9 +409,5 @@ a:hover {
 	.single-product-image {
 		max-width: 440px;
 		width: 100%;
-	}
-
-	.cart-table td {
-		border: none !important;
 	}
 }
