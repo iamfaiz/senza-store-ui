@@ -182,17 +182,19 @@ a:hover {
 	color: #9A12B3;
 	margin-top: 0;
 	margin-bottom: 0;
-	position: relative;
-	top: -10px;
 }
 
 .single-product-price .old {
-	position: relative;
-    top: 22px;
-    font-size: 13px;
-    color: #666;
-    text-decoration: line-through;
-    left: 60px;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	text-decoration: line-through;
+	color: #666;
+}
+
+.single-product-price .new {
+	display: block;
+	text-align: center;
 }
 
 .single-product-detail-list {
@@ -430,12 +432,18 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-	.single-product-title {
-		margin-top: 20px !important;
-	}
-
 	.single-product-image {
 		max-width: 440px;
 		width: 100%;
+	}
+	.row-product-name-price {
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 447px) {
+	.single-product-price .old {
+		left: -10px;
+		top: 55px;
 	}
 }
