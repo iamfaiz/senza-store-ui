@@ -182,6 +182,8 @@ a:hover {
 	color: #9A12B3;
 	margin-top: 0;
 	margin-bottom: 0;
+	position: relative;
+	top: -10px;
 }
 
 .single-product-price .old {
@@ -428,7 +430,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-	.single-product-title, .single-product-price {
+	.single-product-title {
 		margin-top: 20px !important;
 	}
 
