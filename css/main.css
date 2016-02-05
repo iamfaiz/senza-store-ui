@@ -19,6 +19,10 @@ body.homepage-body {
 	background: white;
 }
 
+.jumbotron h1 {
+	color: #9A12B3;
+}
+
 .jumbotron img {
 	margin: 0 auto;
 }
