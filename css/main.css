@@ -167,6 +167,15 @@ a:hover {
 	margin-bottom: 0;
 }
 
+.single-product-price .old {
+	position: relative;
+    top: 22px;
+    font-size: 13px;
+    color: #666;
+    text-decoration: line-through;
+    left: 60px;
+}
+
 .single-product-detail-list {
 	line-height: 30px;
 }
